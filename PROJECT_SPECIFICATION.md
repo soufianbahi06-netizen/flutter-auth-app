@@ -1,112 +1,112 @@
 # Project Specification - Flutter Authentication App
 
-## 📋 نظرة عامة على المشروع
+## Overview
 
-**اسم المشروع:** Flutter Auth App  
-**اللغة الأساسية:** Dart (100%)  
-**النوع:** تطبيق جوال - تطبيق مصادقة وتسجيل دخول متقدم  
-**الحالة:** قيد التطوير (تم الإنشاء منذ يومين)
-
----
-
-## 🎯 الأهداف الرئيسية
-
-1. توفير نظام مصادقة آمن للمستخدمين
-2. دعم عمليات تسجيل الدخول المتعددة (البريد الإلكتروني، Google)
-3. تكامل خدمات Claude AI للذكاء الاصطناعي
-4. توفير واجهة مستخدم عصرية وسهلة الاستخدام
+**Project Name:** Flutter Auth App  
+**Primary Language:** Dart (100%)  
+**Type:** Mobile Application - Advanced Authentication and Login Application  
+**Status:** Under Development (Created 2 days ago)
 
 ---
 
-## ✨ الميزات الأساسية
+## Main Objectives
 
-- ✅ **تسجيل دخول بالبريد الإلكتروني** - التحقق من بيانات المستخدم
-- ✅ **إنشاء حساب جديد** - نموذج تسجيل جديد آمن
-- ✅ **تسجيل دخول بـ Google** - تكامل Google Sign-In
-- ✅ **تكامل Claude AI** - خدمات الذكاء الاصطناعي
-- ✅ **واجهة مستخدم عصرية** - تصميم مادي (Material Design)
-
----
-
-## 📦 التكنولوجيات والمكتبات المستخدمة
-
-| المكتبة | الإصدار | الوصف |
-|---------|---------|-------|
-| Flutter | 3.0.0+ | إطار العمل الأساسي |
-| Dart | 3.0.0+ | لغة البرمجة |
-| Google Sign-In | 6.1.0 | تسجيل دخول Google |
-| Firebase Auth | 5.5.0 | المصادقة والتحقق |
-| Firebase Core | 3.0.0 | أساس Firebase |
-| HTTP | 1.1.0 | طلبات HTTP |
-| Flutter Secure Storage | 9.0.0 | تخزين آمن للبيانات |
-| Provider | 6.0.0 | إدارة الحالة |
-| Dio | 5.3.0 | مكتبة HTTP متقدمة |
+1. Provide a secure authentication system for users
+2. Support multiple login methods (Email, Google)
+3. Integration of Claude AI services for artificial intelligence
+4. Provide a modern and user-friendly interface
 
 ---
 
-## 📁 بنية المشروع
+## Key Features
+
+- ✅ **Email Login** - User credentials verification
+- ✅ **Create New Account** - Secure registration form
+- ✅ **Google Sign-In** - Google Sign-In integration
+- ✅ **Claude AI Integration** - Artificial Intelligence services
+- ✅ **Modern User Interface** - Material Design
+
+---
+
+## Technologies and Libraries Used
+
+| Library | Version | Description |
+|---------|---------|-------------|
+| Flutter | 3.0.0+ | Core framework |
+| Dart | 3.0.0+ | Programming language |
+| Google Sign-In | 6.1.0 | Google login |
+| Firebase Auth | 5.5.0 | Authentication and verification |
+| Firebase Core | 3.0.0 | Firebase foundation |
+| HTTP | 1.1.0 | HTTP requests |
+| Flutter Secure Storage | 9.0.0 | Secure data storage |
+| Provider | 6.0.0 | State management |
+| Dio | 5.3.0 | Advanced HTTP library |
+
+---
+
+## Project Structure
 
 ```
 lib/
-├── main.dart                  # نقطة الدخول الرئيسية
+├── main.dart                  # Main entry point
 ├── screens/
-│   ├── login_screen.dart      # شاشة تسجيل الدخول
-│   ├── signup_screen.dart     # شاشة إنشاء حساب
-│   └── home_screen.dart       # الشاشة الرئيسية
+│   ├── login_screen.dart      # Login screen
+│   ├── signup_screen.dart     # Account creation screen
+│   └── home_screen.dart       # Home screen
 ├── services/
-│   ├── auth_service.dart      # خدمات المصادقة
-│   └── claude_service.dart    # خدمات Claude AI
+│   ├── auth_service.dart      # Authentication services
+│   └── claude_service.dart    # Claude AI services
 └── widgets/
-    └── custom_text_field.dart # حقول نص مخصصة
+    └── custom_text_field.dart # Custom text fields
 ```
 
 ---
 
-## 🔐 متطلبات التكامل الخارجي
+## External Integration Requirements
 
-- **Firebase Project** - لإدارة المصادقة والبيانات
-- **Google Cloud Console** - لتفعيل Google Sign-In
-- **Claude API Key** - لخدمات الذكاء الاصطناعي
-
----
-
-## 📋 المتطلبات النظام
-
-- Flutter 3.0.0 أو أحدث
-- Dart 3.0.0 أو أحدث
-- نظام تشغيل: iOS أو Android
+- **Firebase Project** - For authentication and data management
+- **Google Cloud Console** - For Google Sign-In activation
+- **Claude API Key** - For artificial intelligence services
 
 ---
 
-## 🔄 سير العمل الأساسي
+## System Requirements
+
+- Flutter 3.0.0 or later
+- Dart 3.0.0 or later
+- Operating System: iOS or Android
+
+---
+
+## Basic Workflow
 
 ```
-المستخدم
+User
   ↓
-تسجيل الدخول / إنشاء حساب
+Login / Create Account
   ↓
-المصادقة عبر Firebase
+Authentication via Firebase
   ↓
-الشاشة الرئيسية
+Home Screen
   ↓
-تفاعل مع Claude AI
+Interaction with Claude AI
 ```
 
 ---
 
-## 📊 معلومات الريبوزيتوري
+## Repository Information
 
-- **المالك:** soufianbahi06-netizen
-- **حالة المشروع:** عام (Public)
-- **الفرع الرئيسي:** main
-- **عدد النجوم:** 0 (مشروع جديد)
-- **الترخيص:** MIT License
+- **Owner:** soufianbahi06-netizen
+- **Project Status:** Public
+- **Main Branch:** main
+- **Stars:** 0 (New project)
+- **License:** MIT License
 
 ---
 
-## 🚀 التعليمات
+## Instructions
 
-### التثبيت
+### Installation
 
 ```bash
 git clone https://github.com/soufianbahi06-netizen/flutter-auth-app.git
@@ -114,7 +114,7 @@ cd flutter-auth-app
 flutter pub get
 ```
 
-### التشغيل
+### Run
 
 ```bash
 flutter run
@@ -122,4 +122,4 @@ flutter run
 
 ---
 
-**شكراً لاستخدامك هذا المشروع! 🎉**
+**Thank you for using this project! 🎉**
